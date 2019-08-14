@@ -18,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url){
-                view.loadUrl("https://www.capgemini.com");
                 return true;
             }
         });
